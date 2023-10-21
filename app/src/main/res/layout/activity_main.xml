@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#29A52E"
+    tools:context=".MainActivity">
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_back_arrow"
+    android:layout_margin="20dp"
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Register"
+    android:textStyle="bold"
+    android:textSize="44sp"
+    android:textColor="@color/white"
+    android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8F8787"
+        android:layout_marginHorizontal="20dp"
+        android:hint="User name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:alpha="0.6"
+        android:layout_marginTop="60dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8F8787"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:alpha="0.6"
+        android:layout_marginTop="6dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8F8787"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:alpha="0.6"
+        android:layout_marginTop="6dp"
+        android:padding="8dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="NEXT"
+        android:textColor="@color/black"
+        android:paddingVertical="14dp"
+        android:textSize="16sp"
+        android:drawableEnd="@drawable/ic_icon"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/img"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="180dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trivia"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
